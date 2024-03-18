@@ -10,11 +10,9 @@ function App() {
 
   return (
       <div className=' w-mwidth h-mheight flex-col justify-center'>
-      {/* <PhoneNumber/> */}
-      {/* <Otp/> */}
-      {/* <SignUp/>
-      <PhoneNumber/>
-      <Otp/>
+      {/* <PhoneNumber/>
+      <Otp/> 
+      <SignUp/>
       <LandingPage/> */}
       <Vendor/>
       </div>
