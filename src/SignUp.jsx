@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom'
 
 const SignUp = () => {
   return (
-    <div className='signup-container'>
+    <div className='signup-container '>
 
         <img src={Logo} alt="Logo" className="h-56 w-56 mt-10 mb-0 mx-auto"/>
 

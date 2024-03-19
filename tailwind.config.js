@@ -26,6 +26,20 @@ export default withMT({
         'small-16':'16px',
         'small-17':'17px',
         'small-18':'18px',
+        'small-19':'19px',
+        'small-20':'20px',
+        'small-21':'21px',
+        'small-22':'22px',
+        'small-23':'23px',
+        'small-24':'24px',
+        'small-25':'25px',
+        'small-26':'26px',
+        'small-27':'27px',
+        'small-28':'28px',
+        'small-29':'29px',
+        'small-30':'30px',
+        'small-31':'31px',
+
 
       },
 
@@ -36,6 +50,7 @@ export default withMT({
         'cardwidth':'364px',
         'onep':'1px',
         'twop':'2px',
+        'footer-width':'383px',
       },
       letterSpacing:{
         'widest-1':'.12rem',
@@ -51,9 +66,11 @@ export default withMT({
         mainTheme : "#F46C6C",
         lightRed : "#F5D1D1",
         vendortimepricing : '#FF8A83',
+        itemcustombg : '#F8F8F8',
       },
       fontFamily : {
-        custom : ["SF",'sans-serif']
+        custom : ["SF",'sans-serif'],
+        display : ["display",'sans-serif'],
       },
       borderWidth : {
         '1':'1.7px',

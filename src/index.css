@@ -116,12 +116,25 @@ button:focus-visible {
   font-weight: 900;
   font-style: black;
 }
+@font-face {
+  font-family: 'display';
+  src: url("./fonts/SF-Pro-Display-Regular.otf") format('opentype');
+  font-weight: 500;
+  font-style: display-regular;
+}
+@font-face {
+  font-family: 'display';
+  src: url("./fonts/SF-Pro-Display-Bold.otf") format('opentype');
+  font-weight: 700;
+  font-style: bold;
+}
 
 
 .alphaContainer{
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #31363F;
 }
 
 .signup-container{
