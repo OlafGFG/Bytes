@@ -22,8 +22,6 @@ function App() {
       <Route path='/filters' element={<Filters/>}></Route>
       </Routes>
       
-      {/* <Filters/> */}
-      
       </div>
   )
 }

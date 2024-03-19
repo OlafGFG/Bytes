@@ -46,7 +46,7 @@ export default withMT({
       spacing:{
         'mheight':'932px',
         'mwidth':'430px',
-        'mpheight':'617px',
+        'mpheight':'910px',
         'flexwidth':'354px',
         'cardwidth':'364px',
         'onep':'1px',
@@ -54,9 +54,10 @@ export default withMT({
         '5.5':'22px',
         '4.5':'18px',
         '9.5':'39px',
+        'width':'380px',
         'footer-width':'430px',
-        'phonewidth' : '375px',
-        'phoneheight' : '605px',
+        'phonewidth' : '408px',
+        'phoneheight' : '850px',
       },
       letterSpacing:{
         'widest-small-1':'.01rem',

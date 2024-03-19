@@ -8,7 +8,7 @@ import { Link } from "react-router-dom"
 const Filters = () => {
 return (
 <div className='signup-container absolute h-mpheight m-auto w-mwidth bg-lightRed'>
-    <div className="flex-col relative rounded-xl top-1.5 left-1.5 items-center justify-center w-phonewidth h-phoneheight  bg-white ">
+    <div className="flex-col relative rounded-xl top-1.5 left-3 items-center justify-center w-phonewidth h-phoneheight  bg-white ">
 
     <div className="filter-header flex w-80 ">
     <Link to='/vendor' className="w-12 ">
