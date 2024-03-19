@@ -6,9 +6,9 @@ import {Link} from 'react-router-dom'
 
 const SignUp = () => {
   return (
-    <div className='signup-container'>
+    <div className='signup-container bg-white h-screen'>
 
-        <img src={Logo} alt="Logo" className="h-56 w-56 mt-10 mb-0 mx-auto"/>
+        <img src={Logo} alt="Logo" className="h-56 w-56  mb-0 mx-auto"/>
 
         <p className=' text-sm mt-6 p-0 mb-10'>Serving Convenience One Click at a Time</p>
 
@@ -19,12 +19,15 @@ const SignUp = () => {
         {/* <label htmlFor="phone-input" className="mb-2 text-sm font-medium text-gray-900">+91</label> */}
 
         <div className="relative w-full">
-            <input id='phone-input' type="text" placeholder="Enter email Id" className=" custom-input block p-2.5 w-full mb-6  text-sm text-gray-900 rounded-full  border-1 border-gray-300 active:border-gray-300"  />
+            <input id='email-input' type="text" placeholder="Enter email Id" className=" custom-input block p-2.5 w-full mb-6  text-sm text-gray-900 rounded-full  border-1 border-gray-300 focus:outline-none"  />
             </div>
     </div>
-
-    <button type="submit" className="Next-button font-custom font-medium  text-lg w-60 h-14 my-2.5 rounded-full border-white text-white bg-mainTheme">Next</button>
+    <Link to='/otp' className='flex items-center justify-center w-60 h-14 my-2.5 rounded-full border-white text-white bg-mainTheme'>
+  <p className='font-custom font-medium text-lg'>Next</p>
+</Link>
+    {/* <button type="submit" className="Next-button font-custom font-medium  text-lg w-60 h-14 my-2.5 rounded-full border-white text-white bg-mainTheme">Next</button> */}
 </form>
+
         
         </div>
 
@@ -50,7 +53,7 @@ const SignUp = () => {
 
         <div className='mx-auto mt-2'>
             <Link className=' mx-4 text-xs font-medium text-mainTheme underline'>Terms Of Service</Link>
-            <Link className=' mx-4 text-xs font-semibold  text-mainTheme underline'>Privacy Policy</Link>
+            <Link className=' mx-4 text-xs font-medium  text-mainTheme underline'>Privacy Policy</Link>
         </div>
 
     </div>

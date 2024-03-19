@@ -76,30 +76,35 @@ button:focus-visible {
   font-weight: 100;
   font-style: extralight;
 }
+
 @font-face {
   font-family: 'SF';
   src: url("./fonts/SF-Pro-Rounded-Light.otf") format('opentype');
   font-weight: 200;
   font-style: light;
 }
+
 @font-face {
   font-family: 'SF';
   src: url("./fonts/SF-Pro-Rounded-Regular.otf") format('opentype');
   font-weight: 400;
   font-style: normal;
 }
+
 @font-face {
   font-family: 'SF';
   src: url("./fonts/SF-Pro-Rounded-Medium.otf") format('opentype');
   font-weight: 500;
   font-style: medium;
 }
+
 @font-face {
   font-family: 'SF';
   src: url("./fonts/SF-Pro-Rounded-Semibold.otf") format('opentype');
   font-weight: 600;
   font-style: semibold;
-}@font-face {
+}
+@font-face {
   font-family: 'SF';
   src: url("./fonts/SF-Pro-Rounded-Heavy.otf") format('opentype');
   font-weight: 700;
@@ -120,15 +125,26 @@ button:focus-visible {
   font-family: 'display';
   src: url("./fonts/SF-Pro-Display-Regular.otf") format('opentype');
   font-weight: 500;
-  font-style: display-regular;
+  font-style: regular;
 }
 @font-face {
   font-family: 'display';
   src: url("./fonts/SF-Pro-Display-Bold.otf") format('opentype');
-  font-weight: 700;
+  font-weight: 800;
   font-style: bold;
 }
-
+@font-face {
+  font-family: 'display';
+  src: url("./fonts/SF-Pro-Display-Medium.otf") format('opentype');
+  font-weight: 700;
+  font-style: medium;
+}
+@font-face {
+  font-family: 'display';
+  src: url("./fonts/SF-Pro-Display-Semibold.otf") format('opentype');
+  font-weight: 700;
+  font-style: semibold;
+}
 
 .alphaContainer{
   display: flex;
@@ -142,10 +158,10 @@ button:focus-visible {
 
 }
 
-.ratings-star-icon{
+/* .ratings-star-icon{
   height: 11px;
   width: 12px;
-}
+} */
 
 /* .custom-input{
   padding: 2.5rem;

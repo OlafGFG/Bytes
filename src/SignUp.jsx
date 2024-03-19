@@ -6,17 +6,24 @@ import {Link} from 'react-router-dom'
 
 const SignUp = () => {
   return (
-    <div className='signup-container '>
+    <div className='signup-container bg-white  h-screen  '>
 
-        <img src={Logo} alt="Logo" className="h-56 w-56 mt-10 mb-0 mx-auto"/>
+        <img src={Logo} alt="Logo" className="h-56 w-56  mb-0 mx-auto"/>
 
         <p className=' text-sm mt-6 p-0 mb-10'>Serving Convenience One Click at a Time</p>
 
-        <div className='button-container flex flex-col items-center mt-4'>
+        <div className='button-container flex flex-col items-center justify-center mt-4'>
 
-            <button type='submit' className='signup-container font-custom font-medium text-lg w-60 h-14 my-2.5 rounded-full border-white text-white bg-mainTheme'>Sign Up</button>
+          <Link to='/email' className='signup-container flex items-center justify-center w-60 h-14 my-2.5 rounded-full border-white text-white bg-mainTheme'>
+          <p className='font-custom font-medium text-lg'>Sign Up</p>
+          </Link>
 
-            <button type='submit' className='signin-container font-custom font-semibold text-lg w-60 h-14 my-2.5 rounded-full border-2 border-mainTheme text-gray-800'>Sign In</button>
+          <Link to='/email'className='signin-container flex items-center justify-center w-60 h-14 my-2.5 rounded-full border-1 border-mainTheme text-gray-800 '>
+          <p className='font-custom font-medium text-lg'>Sign In</p>
+          </Link>
+            
+
+       
 
         </div>
 
@@ -42,7 +49,7 @@ const SignUp = () => {
 
         <div className='mx-auto mt-2'>
             <Link className=' mx-4 text-xs font-medium text-mainTheme underline'>Terms Of Service</Link>
-            <Link className=' mx-4 text-xs font-semibold  text-mainTheme underline'>Privacy Policy</Link>
+            <Link className=' mx-4 text-xs font-medium  text-mainTheme underline'>Privacy Policy</Link>
         </div>
 
     </div>

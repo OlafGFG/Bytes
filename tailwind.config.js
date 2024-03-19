@@ -44,16 +44,31 @@ export default withMT({
       },
 
       spacing:{
-        'mheight':'677px',
-        'mwidth':'387px',
+        'mheight':'932px',
+        'mwidth':'430px',
+        'mpheight':'617px',
         'flexwidth':'354px',
         'cardwidth':'364px',
         'onep':'1px',
         'twop':'2px',
-        'footer-width':'383px',
+        '5.5':'22px',
+        '4.5':'18px',
+        '9.5':'39px',
+        'footer-width':'430px',
+        'phonewidth' : '375px',
+        'phoneheight' : '605px',
       },
       letterSpacing:{
+        'widest-small-1':'.01rem',
+        'widest-small-2':'.015rem',
+        'widest-small-3':'.02rem',
+        'widest-small-3':'.03rem',
+        'widest-a':'.04rem',
+        'widest-b':'.06rem',
+        'widest-c':'.08rem',
+        'widest-d':'.1rem',
         'widest-1':'.12rem',
+
         'widest-2':'.13em',
         'widest-3':'.15rem',
         'widest-4':'.17rem',
@@ -67,6 +82,8 @@ export default withMT({
         lightRed : "#F5D1D1",
         vendortimepricing : '#FF8A83',
         itemcustombg : '#F8F8F8',
+        addbuttonbg : '#FAE6E6',
+        searchbar:'#FAE6E6'
       },
       fontFamily : {
         custom : ["SF",'sans-serif'],

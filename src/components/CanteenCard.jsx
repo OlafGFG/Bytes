@@ -2,10 +2,11 @@
 //364()x208(h-52)
 import Nescafe from '../images/Nescafe.jpg'
 import watch from '../images/watch.png'
-
+import { Link } from 'react-router-dom'
 const CanteenCard = () => {
   return (
-    <div className="signup-container w-cardwidth h-56 bg-red-100 mb-4 mt-4 flex-col rounded-3xl">
+    <Link to='/vendor' className=' w-80 '>
+      <div className="signup-container w-80 h-56 mx-auto bg-red-100 mb-4 mt-4 flex-col rounded-3xl">
     <div className="card-image w-full h-2/3 bg-black rounded-3xl">
         <img src={Nescafe} alt='Nescafe' className='w-full h-full rounded-t-3xl'></img>
     </div>
@@ -17,7 +18,7 @@ const CanteenCard = () => {
     </div>
 
     <div className="card-details flex justify-start ">
-      <ul className="card-details-list flex justify-start text-xs ml-1 text-verysmall ">
+      <ul className="card-details-list font-display font-medium flex justify-start text-small-11 ml-1 text-gray-700 ">
         <li className="text-left ml-0 mr-2">Maggi</li>
         <li className="text-left mx-2 list-disc">Coffee</li>
         <li className="text-left mx-2 list-disc">Pasta</li>
@@ -26,13 +27,12 @@ const CanteenCard = () => {
 
     <div className='flex justify-start items-center ml-1'>
       <img src={watch} alt='' className='w-3 h-3 mt-1'></img>
-      <p className='text-xs mt-1 ml-1'>10 mins.</p>
+      <p className='text-small-9 font-display font-medium mt-1.5 ml-1 text-gray-700'>10 mins.</p>
     </div>
     </div>
-    
-    
-    
     </div>
+    </Link>
+    
   )
 }
 export default CanteenCard

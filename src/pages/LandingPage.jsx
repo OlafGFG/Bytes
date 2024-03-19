@@ -9,29 +9,30 @@ import CanteenCard from "../components/CanteenCard"
 import Footer from "../components/Footer"
 const LandingPage = () => {
   return (
-    <div className="signup-container w-mwidth ">
-        <div className='landing-page-header flex justify-around mb-6'>
-            <div className="w-72 h-12 mt-8">
-            <h1 className="h-5 w-36 font-custom font-bold">Hello, Shreya</h1>
-            <p className="h-2.5 w-44 font-custom text-xs">What do you want to order today?</p>
+    <div className="signup-container flex-col items-center justify-center w-mwidth border-x-2 bg-white">
+        <div className='landing-page-header flex w-80  items-center mx-auto justify-around'>
+            <div className="w-72 h-12 mt-8 flex flex-col justify-start">
+            <h1 className="h-5 w-36 mb-1 font-custom font-bold text-small-17 tracking-widest-b text-left">Hello, Shreya</h1>
+            <p className="h-2.5 w-44 font-custom text-xs text-left text-gray-600">What do you want to order today?</p>
             </div>
-            <img src={profileIcon} className="h-8 w-8 mt-8 bg-red-100 rounded-full " alt="Profile-Icon"/>
+            <img src={profileIcon} className="h-8 w-8 mt-5 bg-red-100 rounded-full " alt="Profile-Icon"/>
         </div>
 
-        <input placeholder= 'Search "Cold Coffee"' className="focus:outline-none block p-2.5 h-10 w-96 mb-6  text-sm text-gray-900 placeholder-gray-500 border-none bg-lightRed rounded-full"></input>
-        
-        <img src={cover} alt="cover" className="h-72 w-full mb-4"></img>
+        {/* <input placeholder= 'Search "Cold Coffee"' className="focus:outline-none block pl-5 h-10 w-80  mb-6 mt-2 text-sm text-gray-900 placeholder-gray-500 border-none bg-lightRed rounded-full"></input> */}
+        <input placeholder= 'Search "Cold Coffee"' className="focus:outline-none block pl-4 h-10 w-80  mb-6 mt-2 mx-auto text-sm text-gray-900 placeholder-gray-600  bg-searchbar rounded-full focus:border-red-200"></input>
+        <img src={cover} alt="cover" className="h-56 w-80 mx-auto mb-4"></img>
 
-        <div className="flex items-center w-flexwidth mx-auto mb-6">
+        <div className="flex items-center w-72 mx-auto mb-6">
   <div className="flex-grow border-b-2 border-gray-300"></div>
-  <div className="px-4 text-gray-500 font-custom tracking-widest-7 text-xs">ALL <br></br>CANTEENS</div>
+  <div className="px-4 text-gray-600 font-custom tracking-widest-7 text-xs">ALL <br></br>CANTEENS</div>
   <div className="flex-grow border-b-2 border-gray-300"></div>
 </div>
 
     <CanteenCard/>
-    <CanteenCard/>
     <Footer/>
+    
     </div>
+   
   )
 }
 export default LandingPage
